@@ -1,5 +1,13 @@
 body {
 	background-color: #FFC9DC;
+	font-family: "Lobster Two", cursive, serif;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
 .welcome {
@@ -14,4 +22,5 @@ body {
 	align: center;
 	width: 50%;
 	height: 50%;
+	padding: 1%;
 }
