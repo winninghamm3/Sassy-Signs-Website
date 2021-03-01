@@ -2,6 +2,10 @@ body {
 	background-color: #FFC9DC;
 }
 
+nav {
+	position: sticky;
+	justify-content: center;
+
 .welcome {
 	display: flex;
 	justify-content: center;
