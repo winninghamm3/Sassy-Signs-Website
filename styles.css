@@ -2,14 +2,14 @@ body {
 	background-color: #FFC9DC;
 }
 
+.welcome {
+	display: flex;
+	justify-content: center;
+}
+
 #splash {
 	position: relative;
 	align: center;
 	width: 50%;
 	height: 50%;
-}
-
-.welcome {
-	position: relative;
-	align: center;
 }
