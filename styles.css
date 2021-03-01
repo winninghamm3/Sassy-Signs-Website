@@ -1,3 +1,9 @@
 body {
 	background-color: #FFC9DC;
 }
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
