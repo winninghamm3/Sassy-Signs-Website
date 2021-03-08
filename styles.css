@@ -12,6 +12,8 @@ nav {
 	box-shadow:0px 3px 3px rgba(0,0,0,0.5);
 	padding: 1%;
 	margin-bottom: 25px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 .navbutton {
@@ -29,6 +31,13 @@ nav {
 	margin-left: 2%;
 	margin-right: 2%;
 	box-shadow:0px 3px 3px rgba(0,0,0,0.5);
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.navbutton:hover {
+	background-color: #E3759C;
+	color: white;
 }
 
 #navbar {
@@ -52,8 +61,8 @@ nav {
 
 #splash {
 	position: relative;
-	width: 50%;
-	height: 500px;
+	width: 45%;
+	height: 550px;
 	margin: 15px;
 	border-style: solid;
 	border-width: 15px;
@@ -73,7 +82,7 @@ nav {
 .whitestripe {
 	background-color: white;
 	width: 6.25%;
-	height: 150px;
+	height: 200px;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	box-shadow:0px 3px 3px rgba(0,0,0,0.5);
@@ -82,7 +91,7 @@ nav {
 .pinkstripe {
 	background-color: #FFA8C7;
 	width: 6.25%;
-	height: 150px;
+	height: 200px;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	box-shadow:0px 3px 3px rgba(0,0,0,0.5);
