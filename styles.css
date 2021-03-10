@@ -3,6 +3,29 @@ body {
 	font-family: "Lobster Two", cursive, serif;
 }
 
+.logo {
+	position:relative;
+	max-width: 30%;
+	border: 5px;
+	margin-left: 1%;
+	margin-top: -18%;
+	transform:translateY(180px);
+}
+                                                                             
+.logotext {
+	width: 100%;
+	text-align: left;
+	position: relative;
+	font-size: 500%;
+}
+
+.logosubtext {
+	position: relative;
+	font-family: "DM Serif Text", Times, serif;
+	font-size: 41%;
+	margin-top: -3%;
+}
+
 nav {
 	display: flex;
 	flex-direction: row;
@@ -40,6 +63,11 @@ nav {
 	color: white;
 }
 
+.navbutton:active {
+	background-color: #E3759C;
+	transform:translateY(5px);
+}
+
 #navbar {
 	text-align: center;
 	position: relative;
@@ -54,14 +82,51 @@ nav {
 	justify-content: center;
 }
 
+.catalog {
+	display: flex;
+	flex-direction: column;
+	margin-top: -2%;
+	align-items: center;
+	justify-content: center;
+}
+
 .headerlarge {
 	font-size: 400%;
 	margin-top: 1%;
 }
 
+.info1 {
+	margin-top: -2.5%;
+	font-size: 150%;
+	font-family: "DM Serif Text", Times, serif;
+}
+
 #splash {
 	position: relative;
-	width: 45%;
+	width: 700px;
+	height: 550px;
+	margin: 15px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: white;
+	box-shadow:0px 3px 3px rgba(0,0,0,0.5);
+}
+
+#catalogframe {
+	position: relative;
+	width: 80%;
+	height: 550px;
+	margin: 15px;
+	margin-top: -20px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: white;
+	box-shadow:0px 3px 3px rgba(0,0,0,0.5);
+}
+
+#aboutus {
+	position: relative;
+	width: 400px;
 	height: 550px;
 	margin: 15px;
 	border-style: solid;
